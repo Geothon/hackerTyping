@@ -1,0 +1,45 @@
+body {
+    background:rgb(48, 46, 46);
+  }
+  
+  #startBtn {
+    margin-left: 45%;
+    margin-top: 20%;
+  }
+  
+  #usernameInputBox {
+    margin-left: 45%;
+    margin-top: 20%;
+  }
+  
+  #usernameDisplay {
+    color: rgb(200, 200, 200)
+  }
+  
+  #textbox-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #clearOutputBtn {
+    margin-left: 74%;
+  }
+  
+  #mainText {
+    background:rgb(48, 46, 46);
+    color:rgb(0, 150, 0);
+    width:80%;
+    height:100%;
+  }
+  
+  #outputBox {
+    background:rgb(48, 46, 46);
+    color:rgb(200, 200, 200);
+    width:20%;
+    height:100%;
+  }

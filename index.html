@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hacker Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="body">
+
+  <div id="beginningScreen">
+    <button id="startBtn" onclick="start()">Start</button>
+  </div>
+    
+  <div id="start-screen">
+  <input id="usernameInputBox" placeholder="your username goes here"></input>
+  <button id="submitUsernameBtn" onclick="submitUsername()">Submit</button>
+  </div>
+    
+  <div id="main-screen">
+    <p id="usernameDisplay" style = "font-family:georgia,garamond,serif;font-size:16px;font-style;"></p>
+    <div id="textbox-container">
+      <textarea id="mainText" name="mainText" placeholder="type your code here (try typing help to see some stuff you can do)" spellcheck="false" rows="12" cols="50"></textarea>
+      <textarea id="outputBox" name="outputBox" disabled="disabled" placeholder="output appears here" rows="12" cols="50"></textarea>
+    </div>
+  
+    <div id="button-container">
+      <button id="submitBtn" onclick="submit()">Submit</button>
+      <button id="clearOutputBtn" onclick="clearOutput()">Clear Output</button>
+    </div>
+  </div>
+  <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" alt="dog-background" id="dog-background" width="100%" height="80%">
+    
+    <script src="script.js"></script>
+  </body>
+</html>
